@@ -1,45 +1,33 @@
-# Kaggle Spaceship Titanic Competition
+# Analyzing the Kaggle Titanic Spaceship Dataset
 
 ![Titanic](https://storage.googleapis.com/kaggle-competitions/kaggle/23080/logos/header.png)
 
-This repository contains my work for the Kaggle Spaceship Titanic competition. The goal of the competition is to predict whether passengers on the Titanic transported to an alternate dimension or not based on various features.
+This repository provides an analysis of the Kaggle Spaceship Titanic competition dataset. The aim of this dataset is to predict whether passengers on the Titanic spaceship were transported to another dimension based on various features.
 
-## Competition Overview
+## Project Overview
 
-- Competition Link: [Kaggle Spaceship Titanic Competition](https://www.kaggle.com/competitions/spaceship-titanic)
-- My Kaggle Profile: [Your Kaggle Profile](https://www.kaggle.com/ticyyang)
+The project includes the following components:
 
-## Description
+Data Exploration and Feature Engineering: The Numpy and Pandas libraries are utilized to explore and manipulate the dataset. Furthermore, mlxtend is used to implement Sequential Forward Floating, a wrapper method, for assisting in feature engineering
 
-In this project, I participated in the Kaggle Spaceship Titanic competition. The repository includes the following:
+Data Visualization: Using the powerful Python library Plotly, create interactive charts for data exploration. Compared to other libraries, it is more helpful in intuitively understanding the data and visualizing the appearances of different features.
 
-- Exploratory Data Analysis (EDA) to gain insights into the dataset.
-- Data cleaning and preprocessing to prepare the data for machine learning.
-- Implementation of various machine learning algorithms.
-- Achieved a final accuracy of 81%, ranking within the top 11% of all participating teams.
+Machine Learning: The machine learning aspect involves utilizing scikit-learn, XGBoost, and LightGBM libraries to build predictive models. These models are trained on the dataset to predict whether a passenger was transported to another dimension.
 
-## Contents
+After comparing and adjusting hyperparameters using the grid search method, the LightGBM model was selected to build the predictive model. The final accuracy reached 80.5%.
 
-- `notebooks/`: Jupyter notebooks containing EDA, data preprocessing, and machine learning models.
-- `data/`: Dataset files used for the competition.
-- `src/`: Source code and utility functions used in the project.
+### The versions of libraries used are as follows:  
 
-## Kaggle Submission
-
-- Kaggle Notebook Link: [Spaceship Titanic - 81% Accuracy with LightGBM](https://www.kaggle.com/code/ticyyang/spaceship-titanic-81-acc-with-lightgbm?scriptVersionId=140627918)
-
-## Installation
-
-1. Clone this repository: `git clone https://github.com/yourusername/titanic-kaggle.git`
-2. Navigate to the project directory: `cd titanic-kaggle`
-
-## Usage
-
-1. Open the Jupyter notebooks in the `notebooks/` directory to explore the EDA and machine learning process.
-2. You can also run the notebooks interactively to reproduce the analysis.
+Python: 3.10.12
+Numpy: 1.25.2
+Pandas: 1.5.3
+Plotly: 5.16.1
+Mlxtend: 0.22.0
+scikit-learn: 1.2.2
+XGBoost: 1.7.6
+LightGBM: 4.0.0
 
 ## Credits
 
-This project was completed as part of the Kaggle Spaceship Titanic competition. Credits to Kaggle for providing the dataset and platform for the competition.
+Credits to Kaggle for providing the dataset and platform for the competition.
 
-Feel free to reach out if you have any questions or suggestions!
