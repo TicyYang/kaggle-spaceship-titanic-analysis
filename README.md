@@ -10,9 +10,7 @@ Data Exploration and Feature Engineering: The Numpy and Pandas libraries are uti
 
 Data Visualization: Using the powerful library Plotly, create interactive charts for data exploration. Compared to other libraries, it is more helpful in intuitively understanding the data and visualizing the appearances of different features. Due to the static nature of GitHub web pages, please access this **[link](https://nbviewer.org/github/TicyYang/kaggle_spaceship_titanic_analysis/blob/3e811edfd9655242598b196f22950c2498a0ac3d/spaceship_titanic_analysis.ipynb)** to view the complete Plotly visualizations in Jupyter nbviewer. .
 
-Machine Learning: The machine learning aspect involves utilizing scikit-learn, XGBoost, and LightGBM libraries to build predictive models. These models are trained on the dataset to predict whether a passenger was transported to another dimension.
-
-After comparing and adjusting hyperparameters using the grid search method, the LightGBM model was selected to build the predictive model. The final accuracy reached 80.5%.
+Machine Learning: The machine learning aspect involves constructing predictive models using libraries such as scikit-learn, XGBoost, and LightGBM. Additionally, grid search methods are employed to compare and fine-tune hyperparameters.
 
 ### The versions of libraries used are as follows:  
 
