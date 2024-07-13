@@ -12,18 +12,19 @@ Data Visualization: Using the powerful library Plotly, create interactive charts
 
 Machine Learning: The machine learning aspect involves constructing predictive models using libraries such as scikit-learn, XGBoost, and LightGBM. Additionally, grid search methods are employed to compare and fine-tune hyperparameters.
 
-### The versions of libraries used are as follows:  
+## Libraries Version
+| Library      | Version |
+| ---          | ---     |
+| Python       | 3.10.12 |
+| Numpy        | 1.25.2  |
+| Pandas       | 1.5.3   |
+| Plotly       | 5.16.1  |
+| Mlxtend      | 0.22.0  |
+| scikit-learn | 1.2.2   |
+| XGBoost      | 1.7.6   |
+| LightGBM     | 4.0.0   |
 
-- Python: 3.10.12  
-- Numpy: 1.25.2  
-- Pandas: 1.5.3  
-- Plotly: 5.16.1  
-- Mlxtend: 0.22.0  
-- scikit-learn: 1.2.2  
-- XGBoost: 1.7.6  
-- LightGBM: 4.0.0  
 
 ## Credits
-
 Credits to Kaggle for providing the dataset and platform for the competition.
 
