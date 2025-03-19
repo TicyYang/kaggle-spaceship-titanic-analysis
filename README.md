@@ -24,6 +24,8 @@ Machine Learning: The machine learning aspect involves constructing predictive m
 | XGBoost      | 1.7.6   |
 | LightGBM     | 4.0.0   |
 
+## Result
+Highest score on Kaggle: 0.78957
 
 ## Credits
 Credits to Kaggle for providing the dataset and platform for the competition.
