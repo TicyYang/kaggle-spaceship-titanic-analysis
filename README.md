@@ -1,4 +1,4 @@
-# Analyzing the Kaggle Titanic Spaceship Dataset
+# Analyzing the Kaggle Spaceship Titanic Dataset
 
 This repository provides an analysis of the Kaggle Spaceship Titanic competition dataset. The aim of this dataset is to predict whether passengers on the Titanic spaceship were transported to another dimension based on various features.
 
