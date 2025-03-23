@@ -25,6 +25,7 @@ Machine Learning: The machine learning aspect involves constructing predictive m
 | LightGBM     | 4.0.0   |
 
 ## Result
+Accuracy: 0.80506
 Highest score on Kaggle: 0.78957
 
 ## Credits
